@@ -26,5 +26,9 @@ choco install sql-server-management-studio -y >> %COMPUTERNAME%.log
 choco install vim -y >> %COMPUTERNAME%.log
 choco install visualstudio2017professional -y >> %COMPUTERNAME%.log
 choco install vscode -y >> %COMPUTERNAME%.log
+
+:: Package install for ack
+choco install strawberryperl -y >> %COMPUTERNAME%.log
+choco install ack -y >> %COMPUTERNAME%.log
 :: @echo Now restart to finalise the .Net 3.5 install
 
