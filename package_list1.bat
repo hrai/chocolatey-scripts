@@ -8,19 +8,18 @@ choco install dotnetcore -y >> %COMPUTERNAME%.log
 choco install dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 choco install fiddler4 -y >> %COMPUTERNAME%.log
 choco install firefox -y >> %COMPUTERNAME%.log
-choco install firefox -y >> %COMPUTERNAME%.log
 choco install foxitreader -y >> %COMPUTERNAME%.log
 choco install git -y >> %COMPUTERNAME%.log
 choco install git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
 choco install gitextensions -y >> %COMPUTERNAME%.log
 choco install google-chrome-x64 -y >> %COMPUTERNAME%.log
 choco install googledrive -y >> %COMPUTERNAME%.log
-choco install googledrive -y >> %COMPUTERNAME%.log
+choco install kdiff3 -y >> %COMPUTERNAME%.log
 choco install nodejs -y >> %COMPUTERNAME%.log
 choco install notepadplusplus -y >> %COMPUTERNAME%.log
 choco install postman -y >> %COMPUTERNAME%.log
 choco install powershell4 -y >> %COMPUTERNAME%.log
-choco install resharper -version 9.2.0.0 -y >> %COMPUTERNAME%.log
+choco install resharper -y >> %COMPUTERNAME%.log
 choco install spotify -y >> %COMPUTERNAME%.log
 choco install sql-server-management-studio -y >> %COMPUTERNAME%.log
 choco install vim -y >> %COMPUTERNAME%.log
