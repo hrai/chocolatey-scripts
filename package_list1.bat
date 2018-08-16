@@ -13,7 +13,7 @@ choco install spotify -y >> %COMPUTERNAME%.log
 choco install dotnetcore -y >> %COMPUTERNAME%.log
 choco install dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 choco install docker -y >> %COMPUTERNAME%.log
-choco install fiddler4 -y >> %COMPUTERNAME%.log
+choco install fiddler -y >> %COMPUTERNAME%.log
 choco install git -y >> %COMPUTERNAME%.log
 choco install git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
 choco install gitextensions -y >> %COMPUTERNAME%.log
