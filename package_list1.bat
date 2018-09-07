@@ -5,7 +5,7 @@ choco install firefox -y >> %COMPUTERNAME%.log
 choco install foxitreader -y >> %COMPUTERNAME%.log
 choco install google-chrome-x64 -y >> %COMPUTERNAME%.log
 choco install googledrive -y >> %COMPUTERNAME%.log
-choco install nodejs -y >> %COMPUTERNAME%.log
+choco install nodejs-lts -y >> %COMPUTERNAME%.log
 choco install notepadplusplus -y >> %COMPUTERNAME%.log
 choco install spotify -y >> %COMPUTERNAME%.log
 
@@ -20,7 +20,7 @@ choco install gitextensions -y >> %COMPUTERNAME%.log
 choco install kdiff3 -y >> %COMPUTERNAME%.log
 choco install postman -y >> %COMPUTERNAME%.log
 choco install postsharp -y >> %COMPUTERNAME%.log
-choco install powershell4 -y >> %COMPUTERNAME%.log
+choco install powershell5 -y >> %COMPUTERNAME%.log
 choco install rabbitmq -y >> %COMPUTERNAME%.log
 choco install resharper -y >> %COMPUTERNAME%.log
 choco install sql-server-management-studio -y >> %COMPUTERNAME%.log
