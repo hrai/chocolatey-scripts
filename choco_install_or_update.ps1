@@ -64,7 +64,7 @@ Else  {
 
     # Dev tools
     UpgradeApp dotnetcore
-    UpgradeApp dotnetcore-sdk 
+    UpgradeApp dotnetcore-sdk
     UpgradeApp docker
     UpgradeApp fiddler
     UpgradeApp git
