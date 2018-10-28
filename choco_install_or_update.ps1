@@ -32,6 +32,7 @@ If ($User_Response -eq 'i') {
     InstallApp git-credential-manager-for-windows
     InstallApp gitextensions
     InstallApp kdiff3
+    InstallApp linqpad
     InstallApp postman
     InstallApp postsharp
     InstallApp powershell5
@@ -71,6 +72,7 @@ Else  {
     UpgradeApp git-credential-manager-for-windows
     UpgradeApp gitextensions
     UpgradeApp kdiff3
+    UpgradeApp linqpad
     UpgradeApp postman
     UpgradeApp postsharp
     UpgradeApp powershell5
