@@ -24,6 +24,7 @@ If ($User_Response -eq 'i') {
     InstallApp spotify
 
     # Dev tools
+    InstallApp conemu
     InstallApp dotnetcore
     InstallApp dotnetcore-sdk 
     InstallApp docker
