@@ -5,6 +5,7 @@ choco install firefox -y >> %COMPUTERNAME%.log
 choco install foxitreader -y >> %COMPUTERNAME%.log
 choco install google-chrome-x64 -y >> %COMPUTERNAME%.log
 choco install googledrive -y >> %COMPUTERNAME%.log
+choco install hackfont -y >> %COMPUTERNAME%.log
 choco install nodejs-lts -y >> %COMPUTERNAME%.log
 choco install notepadplusplus -y >> %COMPUTERNAME%.log
 choco install spotify -y >> %COMPUTERNAME%.log
