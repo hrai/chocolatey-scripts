@@ -12,7 +12,7 @@ choco install spotify -y >> %COMPUTERNAME%.log
 
 :: Dev tools
 choco install conemu -y >> %COMPUTERNAME%.log
-choco install cmake -y >> %COMPUTERNAME%.log
+choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
 choco install dotnetcore -y >> %COMPUTERNAME%.log
 choco install dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 choco install docker -y >> %COMPUTERNAME%.log
