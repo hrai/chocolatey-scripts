@@ -11,6 +11,7 @@ choco install notepadplusplus -y >> %COMPUTERNAME%.log
 choco install spotify -y >> %COMPUTERNAME%.log
 
 :: Dev tools
+choco install ag -y >> %COMPUTERNAME%.log
 choco install conemu -y >> %COMPUTERNAME%.log
 choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
 choco install dotnetcore -y >> %COMPUTERNAME%.log
