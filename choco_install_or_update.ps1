@@ -8,7 +8,7 @@ function InstallApp ($arg) {
     choco install $arg -y >> %COMPUTERNAME%.log
 }
 
-$User_Response = Read-Host -Prompt 'Do you want to install or update apps?'
+$User_Response = Read-Host -Prompt 'Do you want to install or update apps? (i/u)'
 If ($User_Response -eq 'i') {
     Write-Host "Installing apps..."
 
@@ -43,10 +43,6 @@ If ($User_Response -eq 'i') {
     InstallApp vim
     InstallApp visualstudio2017professional
     InstallApp vscode
-
-    # Package install for ack
-    InstallApp strawberryperl
-    InstallApp ack
 
     # @echo Now restart to finalise the .Net 3.5 install
 }
@@ -83,10 +79,6 @@ Else  {
     UpgradeApp vim
     UpgradeApp visualstudio2017professional
     UpgradeApp vscode
-
-    # Package install for ack
-    UpgradeApp strawberryperl
-    UpgradeApp ack
 
     # @echo Now restart to finalise the .Net 3.5 install
 } 
