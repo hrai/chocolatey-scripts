@@ -1,41 +1,41 @@
 :: Utilities
-choco install 7zip -y >> %COMPUTERNAME%.log
-choco install ccleaner -y >> %COMPUTERNAME%.log
-choco install firefox -y >> %COMPUTERNAME%.log
-choco install foxitreader -y >> %COMPUTERNAME%.log
-choco install google-chrome-x64 -y >> %COMPUTERNAME%.log
-choco install googledrive -y >> %COMPUTERNAME%.log
-choco install hackfont -y >> %COMPUTERNAME%.log
-choco install nodejs-lts -y >> %COMPUTERNAME%.log
-choco install notepadplusplus -y >> %COMPUTERNAME%.log
-choco install spotify -y >> %COMPUTERNAME%.log
+choco upgrade 7zip -y >> %COMPUTERNAME%.log
+choco upgrade ccleaner -y >> %COMPUTERNAME%.log
+choco upgrade firefox -y >> %COMPUTERNAME%.log
+choco upgrade foxitreader -y >> %COMPUTERNAME%.log
+choco upgrade google-chrome-x64 -y >> %COMPUTERNAME%.log
+choco upgrade googledrive -y >> %COMPUTERNAME%.log
+choco upgrade hackfont -y >> %COMPUTERNAME%.log
+choco upgrade nodejs-lts -y >> %COMPUTERNAME%.log
+choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
+choco upgrade spotify -y >> %COMPUTERNAME%.log
 
 :: Dev tools
-choco install ag -y >> %COMPUTERNAME%.log
-choco install conemu -y >> %COMPUTERNAME%.log
-choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
-choco install dotnetcore -y >> %COMPUTERNAME%.log
-choco install dotnetcore-sdk  -y >> %COMPUTERNAME%.log
-choco install docker -y >> %COMPUTERNAME%.log
-choco install editorconfig.core -y >> %COMPUTERNAME%.log
-choco install fiddler -y >> %COMPUTERNAME%.log
-choco install git -y >> %COMPUTERNAME%.log
-choco install git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
-choco install gitextensions -y >> %COMPUTERNAME%.log
-choco install kdiff3 -y >> %COMPUTERNAME%.log
-choco install postman -y >> %COMPUTERNAME%.log
-choco install postsharp -y >> %COMPUTERNAME%.log
-choco install powershell5 -y >> %COMPUTERNAME%.log
-::choco install python --version 3.6.3 --x86force -y >> %COMPUTERNAME%.log
-choco install python3 -y >> %COMPUTERNAME%.log
-::choco install pip --x86force >> %COMPUTERNAME%.log
-choco install pip3 -y >> %COMPUTERNAME%.log
-choco install rabbitmq -y >> %COMPUTERNAME%.log
-choco install resharper -y >> %COMPUTERNAME%.log
-choco install sql-server-management-studio -y >> %COMPUTERNAME%.log
-choco install vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
-choco install visualstudio2019professional -y >> %COMPUTERNAME%.log
-choco install vscode -y >> %COMPUTERNAME%.log
+choco upgrade ag -y >> %COMPUTERNAME%.log
+choco upgrade conemu -y >> %COMPUTERNAME%.log
+choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
+choco upgrade dotnetcore -y >> %COMPUTERNAME%.log
+choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
+choco upgrade docker -y >> %COMPUTERNAME%.log
+choco upgrade editorconfig.core -y >> %COMPUTERNAME%.log
+choco upgrade fiddler -y >> %COMPUTERNAME%.log
+choco upgrade git -y >> %COMPUTERNAME%.log
+choco upgrade git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
+choco upgrade gitextensions -y >> %COMPUTERNAME%.log
+choco upgrade kdiff3 -y >> %COMPUTERNAME%.log
+choco upgrade postman -y >> %COMPUTERNAME%.log
+choco upgrade postsharp -y >> %COMPUTERNAME%.log
+choco upgrade powershell5 -y >> %COMPUTERNAME%.log
+::choco upgrade python --version 3.6.3 --x86force -y >> %COMPUTERNAME%.log
+choco upgrade python3 -y >> %COMPUTERNAME%.log
+::choco upgrade pip --x86force >> %COMPUTERNAME%.log
+choco upgrade pip3 -y >> %COMPUTERNAME%.log
+choco upgrade rabbitmq -y >> %COMPUTERNAME%.log
+choco upgrade resharper -y >> %COMPUTERNAME%.log
+choco upgrade sql-server-management-studio -y >> %COMPUTERNAME%.log
+choco upgrade vim-tux.upgrade /InstallPopUp -y >> %COMPUTERNAME%.log
+choco upgrade visualstudio2019professional -y >> %COMPUTERNAME%.log
+choco upgrade vscode -y >> %COMPUTERNAME%.log
 
-:: @echo Now restart to finalise the .Net 3.5 install
+:: @echo Done installing the programs
 
