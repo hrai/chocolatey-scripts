@@ -33,7 +33,7 @@ choco install pip3 -y >> %COMPUTERNAME%.log
 choco install rabbitmq -y >> %COMPUTERNAME%.log
 choco install resharper -y >> %COMPUTERNAME%.log
 choco install sql-server-management-studio -y >> %COMPUTERNAME%.log
-choco install vim -y >> %COMPUTERNAME%.log
+choco install vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
 choco install visualstudio2019professional -y >> %COMPUTERNAME%.log
 choco install vscode -y >> %COMPUTERNAME%.log
 
