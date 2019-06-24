@@ -27,7 +27,9 @@ choco install postman -y >> %COMPUTERNAME%.log
 choco install postsharp -y >> %COMPUTERNAME%.log
 choco install powershell5 -y >> %COMPUTERNAME%.log
 ::choco install python --version 3.6.3 --x86force -y >> %COMPUTERNAME%.log
-choco install pip --x86force >> %COMPUTERNAME%.log
+choco install python3 -y >> %COMPUTERNAME%.log
+::choco install pip --x86force >> %COMPUTERNAME%.log
+choco install pip3 -y >> %COMPUTERNAME%.log
 choco install rabbitmq -y >> %COMPUTERNAME%.log
 choco install resharper -y >> %COMPUTERNAME%.log
 choco install sql-server-management-studio -y >> %COMPUTERNAME%.log
