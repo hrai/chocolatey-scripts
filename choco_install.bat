@@ -33,6 +33,7 @@ choco upgrade pip3 -y >> %COMPUTERNAME%.log
 choco upgrade rabbitmq -y >> %COMPUTERNAME%.log
 choco upgrade resharper -y >> %COMPUTERNAME%.log
 choco upgrade sql-server-management-studio -y >> %COMPUTERNAME%.log
+choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
 choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
 choco upgrade visualstudio2019professional -y >> %COMPUTERNAME%.log
 choco upgrade vscode -y >> %COMPUTERNAME%.log
