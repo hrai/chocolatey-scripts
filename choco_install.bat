@@ -37,6 +37,7 @@ choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
 choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
 choco upgrade visualstudio2019professional -y >> %COMPUTERNAME%.log
 choco upgrade vscode -y >> %COMPUTERNAME%.log
+choco upgrade yarn -y >> %COMPUTERNAME%.log
 
 :: @echo Done installing the programs
 
