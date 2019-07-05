@@ -16,7 +16,7 @@ choco upgrade conemu -y >> %COMPUTERNAME%.log
 choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
 choco upgrade dotnetcore -y >> %COMPUTERNAME%.log
 choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
-choco upgrade docker -y >> %COMPUTERNAME%.log
+choco upgrade docker-desktop -y >> %COMPUTERNAME%.log
 choco upgrade editorconfig.core -y >> %COMPUTERNAME%.log
 choco upgrade fiddler -y >> %COMPUTERNAME%.log
 choco upgrade git -y >> %COMPUTERNAME%.log
