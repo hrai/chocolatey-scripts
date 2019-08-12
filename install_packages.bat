@@ -30,8 +30,8 @@ choco upgrade powershell5 -y >> %COMPUTERNAME%.log
 choco upgrade python3 -y >> %COMPUTERNAME%.log
 ::choco upgrade pip --x86force >> %COMPUTERNAME%.log
 choco upgrade pip3 -y >> %COMPUTERNAME%.log
-choco upgrade rabbitmq -y >> %COMPUTERNAME%.log
-choco upgrade resharper -y >> %COMPUTERNAME%.log
+:: choco upgrade rabbitmq -y >> %COMPUTERNAME%.log
+:: choco upgrade resharper -y >> %COMPUTERNAME%.log
 choco upgrade sql-server-management-studio -y >> %COMPUTERNAME%.log
 choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
 choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
