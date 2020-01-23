@@ -32,7 +32,8 @@
             "hidden": false,
             "name": "Ubuntu-18.04",
             "source": "Windows.Terminal.Wsl",
-            "fontFace": "Hack NF"
+            "fontFace": "Hack NF",
+            "colorScheme": "Solarized Dark - Patched"
         },
         {
             "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -43,7 +44,29 @@
     ],
 
     // Add custom color schemes to this array
-    "schemes": [],
+    "schemes": [
+        {
+            "name": "Solarized Dark - Patched",
+            "black": "#002831",
+            "red": "#d11c24",
+            "green": "#738a05",
+            "yellow": "#a57706",
+            "blue": "#2176c7",
+            "purple": "#c61c6f",
+            "cyan": "#259286",
+            "white": "#eae3cb",
+            "brightBlack": "#475b62",
+            "brightRed": "#bd3613",
+            "brightGreen": "#475b62",
+            "brightYellow": "#536870",
+            "brightBlue": "#708284",
+            "brightPurple": "#5956ba",
+            "brightCyan": "#819090",
+            "brightWhite": "#fcf4dc",
+            "background": "#001e27",
+            "foreground": "#708284"
+        }
+    ],
 
     // Add any keybinding overrides to this array.
     // To unbind a default keybinding, set the command to "unbound"
