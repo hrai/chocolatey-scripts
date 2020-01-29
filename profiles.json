@@ -39,7 +39,8 @@
         },
         {
             "guid": "{00000000-0000-0000-ba54-000000000002}",
-            "colorScheme": "Hack NF",
+            "fontFace": "Hack NF",
+            "colorScheme": "Solarized Dark - Patched"
             "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
             "historySize": 9001,
             "icon" : "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
