@@ -34,12 +34,12 @@
             "hidden": false,
             "name": "Ubuntu-18.04",
             "source": "Windows.Terminal.Wsl",
-            "fontFace": "Hack NF",
+            "fontFace": "FiraCode NF",
             "colorScheme": "Solarized Dark - Patched"
         },
         {
             "guid": "{00000000-0000-0000-ba54-000000000002}",
-            "fontFace": "Hack NF",
+            "fontFace": "FiraCode NF",
             "colorScheme": "Solarized Dark - Patched",
             "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
             "historySize": 9001,
