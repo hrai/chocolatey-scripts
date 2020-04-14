@@ -23,6 +23,7 @@ choco upgrade git -y >> %COMPUTERNAME%.log
 choco upgrade git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
 choco upgrade gitextensions -y >> %COMPUTERNAME%.log
 choco upgrade kdiff3 -y >> %COMPUTERNAME%.log
+choco upgrade nswagstudio -y >> %COMPUTERNAME%.log
 choco upgrade postman -y >> %COMPUTERNAME%.log
 :: choco upgrade postsharp -y >> %COMPUTERNAME%.log
 :: choco upgrade powershell5 -y >> %COMPUTERNAME%.log
