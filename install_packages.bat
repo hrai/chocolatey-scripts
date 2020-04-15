@@ -8,13 +8,10 @@ choco upgrade googledrive -y >> %COMPUTERNAME%.log
 choco upgrade hackfont -y >> %COMPUTERNAME%.log
 choco upgrade nvm -y >> %COMPUTERNAME%.log
 choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
-:: choco upgrade spotify -y >> %COMPUTERNAME%.log
 
 :: Dev tools
 choco upgrade ag -y >> %COMPUTERNAME%.log
-:: choco upgrade conemu -y >> %COMPUTERNAME%.log
 choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
-choco upgrade dotnetcore -y >> %COMPUTERNAME%.log
 choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 :: choco upgrade docker-desktop -y >> %COMPUTERNAME%.log
 choco upgrade editorconfig.core -y >> %COMPUTERNAME%.log
@@ -33,7 +30,6 @@ choco upgrade python3 -y >> %COMPUTERNAME%.log
 choco upgrade pip3 -y >> %COMPUTERNAME%.log
 :: choco upgrade rabbitmq -y >> %COMPUTERNAME%.log
 :: choco upgrade resharper -y >> %COMPUTERNAME%.log
-:: choco upgrade sql-server-management-studio -y >> %COMPUTERNAME%.log
 choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
 choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
 choco upgrade visualstudio2019professional -y >> %COMPUTERNAME%.log
