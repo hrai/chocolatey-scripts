@@ -37,3 +37,6 @@ choco upgrade yarn -y >> %COMPUTERNAME%.log
 
 :: @echo Done installing the programs
 
+refreshenv
+
+pip3 install awscli --user
