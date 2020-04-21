@@ -35,8 +35,9 @@ choco upgrade vscode -y >> %COMPUTERNAME%.log
 choco upgrade microsoft-windows-terminal -y >> %COMPUTERNAME%.log
 choco upgrade yarn -y >> %COMPUTERNAME%.log
 
-:: @echo Done installing the programs
+@echo Done installing the programs
 
 refreshenv
 
+@echo Installing python packages
 pip3 install awscli --user
