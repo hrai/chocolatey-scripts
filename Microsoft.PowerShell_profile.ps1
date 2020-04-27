@@ -2,6 +2,8 @@ function .. { set-location .. }
 
 function ... { set-location ... }
 
+function cb { set-location c:/_dev/cre-bus-fra/CREBusFra.Web }
+
 function x {
     Invoke-command -ScriptBlock {exit}
 }
@@ -24,6 +26,10 @@ function Get-Git-CurrentBranch {
 	} else {
 		return
 	}
+}
+
+function g {
+    git $args
 }
 
 function gap {
@@ -153,7 +159,8 @@ function gpf{
     git push -f
 }
 
-function gps{
+del alias:gps -Force
+function gps {
     git push
 }
 
