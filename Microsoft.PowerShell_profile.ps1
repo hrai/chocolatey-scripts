@@ -16,6 +16,9 @@ function vim {
     v $args
 }
 
+Remove-Alias -Name gps -Force
+Remove-Alias -Name gc -Force
+
 # Git methods
 
 function Get-Git-CurrentBranch {
@@ -159,7 +162,6 @@ function gpf{
     git push -f
 }
 
-del alias:gps -Force
 function gps {
     git push
 }
