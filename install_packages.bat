@@ -26,7 +26,7 @@ choco upgrade postman -y >> %COMPUTERNAME%.log
 choco upgrade powershell-core --install-arguments='"ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1"' -y >> %COMPUTERNAME%.log
 choco upgrade python3 -y >> %COMPUTERNAME%.log
 choco upgrade pip3 -y >> %COMPUTERNAME%.log
-:: choco upgrade rabbitmq -y >> %COMPUTERNAME%.log
+choco upgrade neovim -y >> %COMPUTERNAME%.log
 :: choco upgrade resharper -y >> %COMPUTERNAME%.log
 choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
 choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
@@ -40,4 +40,5 @@ choco upgrade yarn -y >> %COMPUTERNAME%.log
 refreshenv
 
 @echo Installing python packages
-pip3 install awscli --user
+pip3 install awscli
+pip3 install pynvim
