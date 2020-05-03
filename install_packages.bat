@@ -5,13 +5,13 @@ choco upgrade firefox -y >> %COMPUTERNAME%.log
 choco upgrade foxitreader -y >> %COMPUTERNAME%.log
 choco upgrade google-chrome-x64 -y >> %COMPUTERNAME%.log
 choco upgrade googledrive -y >> %COMPUTERNAME%.log
-choco upgrade hackfont -y >> %COMPUTERNAME%.log
+::choco upgrade hackfont -y >> %COMPUTERNAME%.log
 choco upgrade nvm -y >> %COMPUTERNAME%.log
-choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
+::choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
 
 :: Dev tools
-choco upgrade ag -y >> %COMPUTERNAME%.log
-choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
+::choco upgrade ag -y >> %COMPUTERNAME%.log
+::choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
 choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 :: choco upgrade docker-desktop -y >> %COMPUTERNAME%.log
 choco upgrade editorconfig.core -y >> %COMPUTERNAME%.log
