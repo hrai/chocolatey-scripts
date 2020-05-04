@@ -10,7 +10,7 @@ choco upgrade nvm -y >> %COMPUTERNAME%.log
 ::choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
 
 :: Dev tools
-::choco upgrade ag -y >> %COMPUTERNAME%.log
+choco upgrade ag -y >> %COMPUTERNAME%.log
 ::choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
 choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 :: choco upgrade docker-desktop -y >> %COMPUTERNAME%.log
