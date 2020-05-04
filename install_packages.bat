@@ -4,7 +4,7 @@ choco upgrade ccleaner -y >> %COMPUTERNAME%.log
 choco upgrade firefox -y >> %COMPUTERNAME%.log
 choco upgrade foxitreader -y >> %COMPUTERNAME%.log
 choco upgrade google-chrome-x64 -y >> %COMPUTERNAME%.log
-choco upgrade googledrive -y >> %COMPUTERNAME%.log
+:: choco upgrade googledrive -y >> %COMPUTERNAME%.log
 ::choco upgrade hackfont -y >> %COMPUTERNAME%.log
 choco upgrade nvm -y >> %COMPUTERNAME%.log
 ::choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
