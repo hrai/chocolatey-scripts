@@ -10,11 +10,12 @@ choco upgrade nvm -y >> %COMPUTERNAME%.log
 ::choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
 
 :: Dev tools
-choco upgrade ag -y >> %COMPUTERNAME%.log
+:: choco upgrade ag -y >> %COMPUTERNAME%.log
 ::choco upgrade cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y >> %COMPUTERNAME%.log
 choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 :: choco upgrade docker-desktop -y >> %COMPUTERNAME%.log
 choco upgrade editorconfig.core -y >> %COMPUTERNAME%.log
+choco upgrade fd -y >> %COMPUTERNAME%.log
 choco upgrade fiddler -y >> %COMPUTERNAME%.log
 choco upgrade git -y >> %COMPUTERNAME%.log
 choco upgrade git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
@@ -38,6 +39,7 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 )
 
 :: choco upgrade resharper -y >> %COMPUTERNAME%.log
+choco upgrade ripgrep -y >> %COMPUTERNAME%.log
 choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
 choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
 :: choco upgrade visualstudio2019professional -y >> %COMPUTERNAME%.log
