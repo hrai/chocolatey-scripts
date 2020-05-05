@@ -17,6 +17,7 @@ choco upgrade dotnetcore-sdk  -y >> %COMPUTERNAME%.log
 choco upgrade editorconfig.core -y >> %COMPUTERNAME%.log
 choco upgrade fd -y >> %COMPUTERNAME%.log
 choco upgrade fiddler -y >> %COMPUTERNAME%.log
+choco upgrade fzf -y >> %COMPUTERNAME%.log
 choco upgrade git -y >> %COMPUTERNAME%.log
 choco upgrade git-credential-manager-for-windows -y >> %COMPUTERNAME%.log
 choco upgrade gitextensions -y >> %COMPUTERNAME%.log
