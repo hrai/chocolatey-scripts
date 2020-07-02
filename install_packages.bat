@@ -29,6 +29,7 @@ choco upgrade powershell-core --install-arguments='"ADD_EXPLORER_CONTEXT_MENU_OP
 choco upgrade python3 -y >> %COMPUTERNAME%.log
 choco upgrade pip3 -y >> %COMPUTERNAME%.log
 choco upgrade neovim -y >> %COMPUTERNAME%.log
+
 :: installing vimplug for neovim
 md ~\vimfiles\autoload
 $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
