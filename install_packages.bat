@@ -31,15 +31,8 @@ choco upgrade python3 -y >> %COMPUTERNAME%.log
 choco upgrade pip3 -y >> %COMPUTERNAME%.log
 choco upgrade neovim -y >> %COMPUTERNAME%.log
 
-:: installing vimplug for neovim
-md ~\vimfiles\autoload
-$uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-(New-Object Net.WebClient).DownloadFile(
-  $uri,
-  $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath(
-    "~\vimfiles\autoload\plug.vim"
-  )
-)
+Powershell.exe -executionpolicy remotesigned -File install_vim_plug.ps1
+
 
 :: choco upgrade resharper -y >> %COMPUTERNAME%.log
 choco upgrade ripgrep -y >> %COMPUTERNAME%.log
