@@ -29,15 +29,13 @@ choco upgrade postman -y >> %COMPUTERNAME%.log
 choco upgrade powershell-core --install-arguments='"ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1"' -y >> %COMPUTERNAME%.log
 choco upgrade python3 -y >> %COMPUTERNAME%.log
 choco upgrade pip3 -y >> %COMPUTERNAME%.log
-choco upgrade neovim -y >> %COMPUTERNAME%.log
 
-Powershell.exe -executionpolicy remotesigned -File install_vim_plug.ps1
+Powershell.exe -executionpolicy remotesigned -File install_neovim.ps1
 
 
 :: choco upgrade resharper -y >> %COMPUTERNAME%.log
 choco upgrade ripgrep -y >> %COMPUTERNAME%.log
 choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
-choco upgrade vim-tux.install /InstallPopUp -y >> %COMPUTERNAME%.log
 :: choco upgrade visualstudio2019professional -y >> %COMPUTERNAME%.log
 choco upgrade vscode -y >> %COMPUTERNAME%.log
 choco upgrade microsoft-windows-terminal -y >> %COMPUTERNAME%.log
@@ -49,4 +47,3 @@ refreshenv
 
 @echo Installing python packages
 pip3 install awscli
-pip3 install pynvim
