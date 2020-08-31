@@ -27,8 +27,8 @@ choco upgrade nuget.commandline -y >> %COMPUTERNAME%.log
 :: choco upgrade nswagstudio -y >> %COMPUTERNAME%.log
 :: choco upgrade postman -y >> %COMPUTERNAME%.log
 choco upgrade powershell-core --install-arguments='"ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1"' -y >> %COMPUTERNAME%.log
-choco upgrade python3 -y >> %COMPUTERNAME%.log
-choco upgrade pip3 -y >> %COMPUTERNAME%.log
+:: choco upgrade python3 -y >> %COMPUTERNAME%.log
+:: choco upgrade pip3 -y >> %COMPUTERNAME%.log
 :: choco upgrade resharper -y >> %COMPUTERNAME%.log
 choco upgrade ripgrep -y >> %COMPUTERNAME%.log
 choco upgrade universal-ctags -y >> %COMPUTERNAME%.log
