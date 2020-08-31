@@ -43,7 +43,7 @@ Powershell.exe -executionpolicy remotesigned -File install_neovim.ps1
 
 refreshenv
 
-@echo Installing python packages
-pip3 install awscli
+:: @echo Installing python packages
+:: pip3 install awscli
 
 
