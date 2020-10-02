@@ -47,3 +47,7 @@ refreshenv
 :: pip3 install awscli
 
 
+scoop install bat
+scoop install jq
+scoop install tldr
+scoop install zoxide
