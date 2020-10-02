@@ -1,4 +1,5 @@
-choco upgrade neovim -y >> %COMPUTERNAME%.log
+scoop install python
+scoop install neovim
 pip3 install neovim
 pip3 install pynvim
 
