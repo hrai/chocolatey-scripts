@@ -1,6 +1,6 @@
 function .. { set-location .. }
 
-function ... { set-location ... }
+function ... { set-location ../.. }
 
 function cb { set-location c:/_dev/cre-bus-fra/CREBusFra.Web }
 
@@ -18,6 +18,7 @@ function vim {
 
 Remove-Alias -Name gps -Force
 Remove-Alias -Name gc -Force
+Remove-Alias -Name gp -Force
 
 # Git methods
 
@@ -307,4 +308,14 @@ function grc {
 
 function gco {
     git clone "$args" && cd "$(basename "$args" .git)"
+}
+
+# https://github.com/ajeetdsouza/zoxide#powershell
+Invoke-Expression (& {
+        $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+            (zoxide init --hook $hook powershell) -join "`n"
+})
+
+function j {
+    z $args
 }
