@@ -1,7 +1,6 @@
 scoop install python
 scoop install neovim
-pip3 install neovim
-pip3 install pynvim
+python3 -m pip install --user --upgrade pynvim
 
 # installing vimplug for neovim
 md ~\AppData\Local\nvim-data\site\autoload
