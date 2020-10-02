@@ -29,14 +29,6 @@ choco upgrade yarn -y >> %COMPUTERNAME%.log
 
 Powershell.exe -executionpolicy remotesigned -File install_neovim.ps1
 
-@echo Done installing the programs
-
-refreshenv
-
-:: @echo Installing python packages
-:: pip3 install awscli
-
-
 scoop install bat
 scoop install fd
 scoop install fzf
@@ -44,3 +36,11 @@ scoop install git
 scoop install jq
 scoop install tldr
 scoop install zoxide
+
+@echo Done installing the programs
+
+refreshenv
+
+:: @echo Installing python packages
+:: pip3 install awscli
+
