@@ -38,6 +38,10 @@ scoop install jq
 scoop install tldr
 scoop install zoxide
 
+scoop bucket add nerd-fonts
+scoop install CascadiaCode-NF-Mono
+scoop install FiraCode-NF-Mono
+
 @echo Done installing the programs
 
 refreshenv
