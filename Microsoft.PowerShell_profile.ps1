@@ -8,6 +8,10 @@ function x {
     Invoke-command -ScriptBlock {exit}
 }
 
+function y {
+    yarn $args
+}
+
 function v {
     nvim $args
 }
@@ -32,16 +36,15 @@ function Get-Git-CurrentBranch {
 	}
 }
 
+function get_branch_name {
+    $branch_name = Get-Git-CurrentBranch
+    return $branch_name
+}
+
 function g {
     git $args
 }
 
-function gap {
-    $branch_name = Get-Git-CurrentBranch
-	git add .
-	git commit -m "$args"
-	git push -u origin $branch_name
-}
 
 function gs {
 	git status $args
@@ -263,28 +266,24 @@ function gnr {
   git checkout release/$args
 }
 
-function get_branch_name {
-    $branch_name = Get-Git-CurrentBranch
-    return $branch_name
+function gap {
+    $branch_name = get_branch_name
+	git add .
+	git commit -m "$args"
+	git push -u origin $branch_name
 }
 
 function gac {
   $branch_name=get_branch_name
   git add .
-  git commit -m "$*"
-}
-
-function gap {
-  $branch_name=get_branch_name
-  git add .
-  git commit -m "$*"
-  git push -u origin $branch_name
+  git commit -m "$args"
 }
 
 function gcp {
-  $branch_name=get_branch_name
-  git commit -m "$*"
-  git push -u origin $branch_name
+    $branch_name = get_branch_name
+	git add .
+	git commit -m "$args"
+	git push -u origin $branch_name
 }
 
 function gcap {
