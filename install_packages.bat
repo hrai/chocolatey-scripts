@@ -7,7 +7,7 @@ choco upgrade firefox-dev --pre -y >> %COMPUTERNAME%.log
 choco upgrade foxitreader -y >> %COMPUTERNAME%.log
 choco upgrade googlechrome -y >> %COMPUTERNAME%.log
 :: choco upgrade googledrive -y >> %COMPUTERNAME%.log
-choco upgrade nvm -y >> %COMPUTERNAME%.log
+::choco upgrade nvm -y >> %COMPUTERNAME%.log
 ::choco upgrade notepadplusplus -y >> %COMPUTERNAME%.log
 
 :: Dev tools
