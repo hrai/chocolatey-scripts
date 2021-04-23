@@ -30,18 +30,6 @@ choco upgrade yarn -y >> %COMPUTERNAME%.log
 
 Powershell.exe -executionpolicy remotesigned -File install_neovim.ps1
 
-scoop install bat
-scoop install fd
-scoop install fzf
-scoop install git
-scoop install jq
-scoop install tldr
-scoop install zoxide
-
-scoop bucket add nerd-fonts
-sudo scoop install CascadiaCode-NF-Mono
-sudo scoop install FiraCode-NF-Mono
-
 @echo Done installing the programs
 
 refreshenv
