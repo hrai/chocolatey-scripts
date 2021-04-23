@@ -3,7 +3,7 @@ scoop install neovim
 python3 -m pip install --user --upgrade pynvim
 
 # installing vimplug for neovim
-md ~\AppData\Local\nvim-data\site\autoload
+mkdir -f ~\AppData\Local\nvim-data\site\autoload
 $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 (New-Object Net.WebClient).DownloadFile(
   $uri,
