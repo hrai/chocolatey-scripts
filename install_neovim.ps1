@@ -1,5 +1,6 @@
 scoop install python
-scoop install neovim
+scoop bucket add versions
+scoop install neovim-nightly
 python3 -m pip install --user --upgrade pynvim
 
 # installing vimplug for neovim
