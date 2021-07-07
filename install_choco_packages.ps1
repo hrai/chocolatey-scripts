@@ -29,8 +29,6 @@ choco upgrade vscode -y >> %COMPUTERNAME%.log
 choco upgrade microsoft-windows-terminal -y >> %COMPUTERNAME%.log
 choco upgrade yarn -y >> %COMPUTERNAME%.log
 
-Powershell.exe -executionpolicy remotesigned -File install_neovim.ps1
-
 Write-Output "Done installing the programs"
 
 refreshenv
