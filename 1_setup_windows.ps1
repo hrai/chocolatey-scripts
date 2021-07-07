@@ -1,3 +1,5 @@
+#"C:\Program Files (x86)\Git\bin\sh.exe" --login -i -c "git status"
+
 Write-Output 'Install powershell before proceeding...'
 Write-Output 'https://github.com/PowerShell/powershell/releases'
 
